@@ -25,9 +25,16 @@
 // Body Locked
 body {
     font-family: "Metropolis";
+
     &.locked {
         overflow: hidden;
     }
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 // Animations
@@ -41,3 +48,9 @@ body {
         opacity: 1;
     }
 }
+
+
+                // &:hover {
+                //     background-color: #163688;
+                //     transition: .3s all ease;
+                // }
