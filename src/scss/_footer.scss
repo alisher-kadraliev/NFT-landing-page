@@ -1,4 +1,119 @@
 // Footer
 footer {
     display: block;
+    background-color: black;
+}
+
+.container {}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    // .footer__item
+    padding: 100px 0 73px 0;
+    @media(max-width: $breakpoint768) {
+    flex-wrap: wrap;
+    padding: 60px 0 40px 0;
+    }
+
+    &__item {}
+
+    // .footer__logo
+
+    &__logo {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 18px;
+        /* identical to box height */
+        padding-bottom: 20px;
+
+        color: #FFFFFF;
+    }
+
+    // .footer__text
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+
+        color: #FFFFFF;
+        @media(max-width: $breakpoint768) {
+        padding-bottom: 40px;
+        }
+    }
+
+    // .footer__form
+
+    &__form {}
+
+    // .footer__form-title
+
+    &__form-title {
+        padding-bottom: 12px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+
+    // .footer__inp
+
+    &__inp {
+        padding: 21px 100px 21px 20px;
+        background: #FFFFFF;
+
+        border-radius: 4px;
+    }
+
+    // .footer__form-text
+    &__btn {
+        position: absolute;
+        right: 6px;
+        background: $secondary;
+        border-radius: 4px;
+        padding: 11px 13px;
+        bottom: -15px;
+    }
+
+    &__form-text {
+        padding-top: 10px;
+        padding-bottom: 34px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+
+        color: #FFFFFF;
+    }
+
+    // .footer__social
+
+    &__social {
+        gap: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    // .footer__link
+
+    &__link {
+        background: #5E5C6C;
+        padding: 14px 13px;
+        border-radius: 50%;
+    }
+}
+
+.form__label {
+    position: relative;
+
 }

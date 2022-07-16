@@ -1,0 +1,64 @@
+.section {
+
+    // .section__company
+
+    &__company {
+        padding: 50px 0;
+        background: #FAF9FA;
+    }
+}
+
+.container {}
+
+.company {
+
+    // .company__item
+    &__text {
+        padding-top: 6px;
+    }
+
+
+    &__item {}
+
+    // .company__title
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: $primary;
+        padding-bottom: 46px;
+    }
+
+    // .company__list
+
+    &__list {
+        display: flex;
+        gap: 69px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    // .company__list-item
+
+    &__list-item {
+        display: flex;
+        gap: 12px;
+
+    }
+
+    &span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height */
+        color: #232427;
+    }
+}

@@ -1,0 +1,110 @@
+.section {
+
+    // .section__testimonals
+
+    &__testimonals {
+        padding: 110px 0;
+    }
+}
+
+.container {}
+
+.testimonals {
+
+    // .testimonals__title
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height, or 122% */
+
+
+        color: $primary;
+
+        @media(max-width: $breakpoint768) {
+            text-align: center;
+            font-size: 29px;
+            line-height: 34px;
+        }
+    }
+
+    // .testimonals__text
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height */
+
+
+        color: #5E5C6C;
+        padding-top: 15px;
+        padding-bottom: 45px;
+
+        @media(max-width: $breakpoint768) {
+            text-align: center;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    // .testimonals__cards
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        @media(max-width: $breakpoint992) {
+            justify-content: center;
+        }
+    }
+}
+
+.text {}
+
+.cards {
+    // .cards__item
+
+    &__item-card {}
+
+    &__item {
+        // max-width: 255px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        max-width: 255px;
+        padding: 20px;
+
+        &:hover {
+            background: #FAFBFD;
+            transition: .3s all ease-in-out;
+            box-shadow: none;
+        }
+    }
+
+    // .cards__title
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height */
+        padding-bottom: 7px;
+        padding-top: 15px;
+        color: $primary;
+    }
+
+    // .cards__social
+
+    &__social {
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+    }
+}

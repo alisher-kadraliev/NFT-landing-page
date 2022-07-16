@@ -31,6 +31,17 @@
 
 
 .about {
+    img {
+        background: #FAFBFD;
+        padding: 21px;
+        border-radius: 50%;
+
+        &:hover {
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, .3);
+            background: #fff;
+        }
+
+    }
 
     // .about__item
 
@@ -64,14 +75,18 @@
         background: #FFFFFF;
         border: 1px solid #EFEFF4;
         border-radius: 8px;
-        &:hover{
+
+        &:hover {
             background: #FAFBFD;
             border: none;
             transition: .3s all ease;
+
         }
-        &.non{
+
+        &.non {
             border: none;
-            &:hover{
+
+            &:hover {
                 background-color: #fff;
             }
         }
@@ -79,6 +94,7 @@
         @media(max-width: $breakpoint768) {
 
             margin-bottom: 20px;
+        margin-right: 0;
         }
     }
 
@@ -121,8 +137,9 @@
         padding-top: 40px;
         padding-bottom: 16px;
         color: $primary;
+
         @media(max-width: $breakpoint768) {
-        text-align: center;
+            text-align: center;
         }
     }
 
